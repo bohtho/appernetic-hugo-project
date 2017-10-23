@@ -3,17 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>%22/%22/tags/</loc>
+    <loc>http://bohtho.github.com/post/first/</loc>
+    <lastmod>2015-07-18T14:08:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bohtho.github.com/post/second/</loc>
+    <lastmod>2015-07-18T14:08:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bohtho.github.com/post/third/</loc>
+    <lastmod>2015-07-18T14:53:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bohtho.github.com/about/about/</loc>
+    <lastmod>2015-07-18T14:08:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bohtho.github.com/about/</loc>
+    <lastmod>2015-07-18T14:08:35+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>%22/%22/topics/</loc>
+    <loc>http://bohtho.github.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>%22/%22/</loc>
+    <loc>http://bohtho.github.com/</loc>
+    <lastmod>2015-07-18T14:08:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bohtho.github.com/post/</loc>
+    <lastmod>2015-07-18T14:08:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bohtho.github.com/tags/</loc>
     <priority>0</priority>
   </url>
   
