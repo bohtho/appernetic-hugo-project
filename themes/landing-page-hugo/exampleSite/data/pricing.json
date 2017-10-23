@@ -1,16 +1,41 @@
 [
     {
-        "name": "Free",
-        "link": "signup/free",
-        "linkText": "Signup",
+        "name": "Mandag",
+
         "features": [
-            {
-                "name": "Free-Feature 1",
-                "description": "My feature 1 can do..."
+          {
+              "name": "",
+              "description": ""
+          },
+          {
+                "name": "10:00",
+                "description": "Åpner"
             },
             {
-                "name": "Free-Feature 2",
-                "description": "with feature 2 you can..."
+                "name": "-",
+                "description": ""
+            },
+            {
+                "name": "16:00",
+                "description": "Stenger"
+            },
+
+        ]
+    },
+    {
+        "name": "Tirsdag",
+        "features": [
+            {
+                "name": "08:00",
+                "description": "Åpner"
+            },
+            {
+                "name": "-",
+                "description": ""
+            }
+            {
+                "name": "14:30",
+                "description": "Stenger"
             },
             {
                 "name": "",
@@ -19,40 +44,68 @@
         ]
     },
     {
-        "name": "Basic",
-        "link": "signup/basic",
-        "linkText": "Signup",
+        "name": "Onsdag",
+
         "features": [
             {
-                "name": "Basic-Feature1",
-                "description": "you can do..."
+                "name": "08:00",
+                "description": "Åpner"
             },
             {
-                "name": "Basic-Feature2",
-                "description": "more details"
+                "name": "12:00",
+                "description": "Stenger"
             },
             {
-                "name": "Basic-Feature3",
-                "description": "you can't believe it"
+                "name": "",
+                "description": ""
+            }
+            {
+                "name": "",
+                "description": ""
             }
         ]
     },
     {
-        "name": "Premium",
-        "link": "signup/premium",
-        "linkText": "Signup",
+        "name": "Torsdag",
+
         "features": [
             {
-                "name": "Premium-Feature1",
-                "description": "you can do..."
+                "name": "08:00",
+                "description": "Åpner"
             },
             {
-                "name": "Premium-Feature2",
-                "description": "more details"
+                "name": "-",
+                "description": ""
             },
             {
-                "name": "Premium-Feature3",
-                "description": "you can't believe it"
+                "name": "14:30",
+                "description": "Stenger"
+            }
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Fredag",
+
+        "features": [
+            {
+                "name": "08:00",
+                "description": "Åpner"
+            },
+            {
+                "name": "-",
+                "description": ""
+            },
+            {
+                "name": "14:00",
+                "description": "Stenger"
+            }
+            {
+                "name": "",
+                "description": ""
             }
         ]
     }
