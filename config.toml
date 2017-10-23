@@ -1,7 +1,8 @@
-baseurl = ""
+baseurl = "http://bohtho.github.com/"
 languageCode = "en-us"
 title = "Kvelde Legekontor"
 canonifyUrls = "true"
+theme = "landing-page-hugo"
 
 [params]
     description = "Legene Tone C. Grimstad og Ragnhild E. Bøhm"
