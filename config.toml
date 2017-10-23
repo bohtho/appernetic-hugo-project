@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Kvelde Legekontor"
+  description = ""
 
   # Link custom assets relative to /static
   custom_css = []
@@ -45,14 +45,14 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Kvelde Legekontor"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+    services = "Tjenester"
+    #portfolio = "Portfolio"
+    #about = "About"
+    team = "Ansatte"
+    contact = "Kontaktopplysninger"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -66,8 +66,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
+      url = "https://helsenorge.no/min-helse/bytte-fastlege?fylke=07&kommuner=0709&Kjonn=kvinne&filterKunLedige=true"
+      name = "Bytte fastlege"
       weight = 10
 
 
@@ -75,16 +75,16 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "Velkommen til Kvelde Legekontor"
+    subtitle = "og legene Tone C. Grimstad og Ragnhild Eikaas Bøhm"
+    buttonText = "Hva vi kan hjelpe med"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Tjenester"
+    subtitle = "Utover å fungere som fastlege og gi almennmedisinsk behandling:"
 
     [[params.services.row]]
 
@@ -108,7 +108,7 @@ googleAnalytics = ""
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -125,7 +125,7 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
@@ -163,7 +163,7 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
+    title = "Våre ansatte"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
@@ -212,7 +212,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -240,9 +240,9 @@ She worked at Pied Piper for years until they went belly up."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    title = "Kontakt oss"
+    subtitle  = "Tlf. 33 11 34 70"
+    buttonText = "Send melding"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -296,7 +296,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
